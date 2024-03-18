@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;508;600;700;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cuerpo-tlou-inicio{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://s3.us-east-1.amazonaws.com/nd.images/uploads/Desktop_3840x2160.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+
+
+.header{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    
+}   
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+.header-content {
+    text-align: center;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: black;
+}
+
+#menu {
+    display: none;
+}
+
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+ 
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: whitesmoke;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: black;
+}
+
+#menu {
+    display: none;
+}
+
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content {
+    font-size: 16px;
+    color: #fffdfc;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyH{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0F0F0F;
+}
+
+.containerH{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.headerH{
+    background-image: url(https://fictionhorizon.com/wp-content/uploads/2023/01/fireflies-logo.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.menuH{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #040404;
+    border-bottom: 1pz solid #FFFFFF29;
+}
+
+.logoH {
+    color: #3c8036;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbarH ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbarH ul li a{
+    font-size: 18PX;
+    padding: 20PX;
+    color: white;
+display: block;
+}
+
+.menu .navbarH ul li a:hover{
+    color: #494141;
+
+}
+
+#menuH{
+    display: none;
+}
+
+.menu-iconoH{
+    width: 25px;
+}
+
+.menuH label{
+    display: none;
+    cursor: pointer;
+}
+
+.header-infoH h1{
+    color: #3c8036;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.header-infoH p{
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.gym{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.gym-1H h2{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.gym-1H p{
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 35px;
+}
+
+.gym-1H span{
+    color: #A70A15;
+}
+
+
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6{
+    width: 250px;
+}
