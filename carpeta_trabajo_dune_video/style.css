@@ -130,13 +130,13 @@ body{
     margin-bottom: 50px;
 }
 
-.DUNE-group {
+.dune-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.DUNE-1 img {
+.dune-1 img {
     width: 200px;
 }
 
