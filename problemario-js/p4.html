@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problema 1</title>
+    <title>Problema 4</title>
     <script src="p1.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,19 +28,27 @@
     </header>
     <br>
     <div class="cuadro">
-        <label for="monto"><h1>Monto a Invertir</h1></label>
+        <h1>Ingresa tus calificaciones</h1>
         <br>
+        <input class="button" type="text" id="parcial1" name="parcial1" placeholder="1er parcial" >
         <br>
-        <input class="button" type="text" id="monto" name="monto" placeholder="Introduce la cantidad">
+        <input class="button" type="text" id="parcial2" name="parcial2" placeholder="2do parcial">
         <br>
+        <input class="button" type="text" id="parcial3" name="parcial3" placeholder="3er parcial">
         <br>
-        <button class="button" type="button" onclick="calcular()" id="button" name="button">Calcular</button>
+        <input class="button" type="text" id="examen" name="examen" placeholder="Examen final">
+        <br>
+        <input class="button" type="text" id="proyecto" name="proyecto" placeholder="Proyecto final">
+        <br>
+        <button class="button" type="button" onclick="calificacion()" id="button" name="button">Calcular</button>
         <br>
         <br>
         <div class="respuesta">
-        <span  id="porcentaje"></span>
-        <span id="total"></span>
-    </div>
+            <span id="3parciales"></span>
+            <span id="examen_final"></span>
+            <span id="proyecto"></span>
+            <span id="total"></span>
+        </div>
     </div>
 </body>
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problema 1</title>
+    <title>Problema 2</title>
     <script src="p1.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,19 +28,24 @@
     </header>
     <br>
     <div class="cuadro">
-        <label for="monto"><h1>Monto a Invertir</h1></label>
+        <label for="monto"><h1>Favor de ingresar tus bentas y sueldo base</h1></label>
         <br>
         <br>
-        <input class="button" type="text" id="monto" name="monto" placeholder="Introduce la cantidad">
+        <input class="button" type="text" id="montobase" name="montobase" placeholder="Introduce el sueldo base">
         <br>
+        <input class="button" type="text" id="venta1" name="venta1" placeholder="Introduce la primera venta">
         <br>
-        <button class="button" type="button" onclick="calcular()" id="button" name="button">Calcular</button>
+        <input class="button" type="text" id="venta2" name="venta2" placeholder="Introduce la segunda venta">
+        <br>
+        <input class="button" type="text" id="venta3" name="venta3" placeholder="Introduce la tercera venta">
+        <br>
+        <button class="button" type="button" onclick="montobase()" id="button" name="button">Calcular</button>
         <br>
         <br>
         <div class="respuesta">
-        <span  id="porcentaje"></span>
-        <span id="total"></span>
-    </div>
+            <span id="porcentaje"></span>
+            <span id="total"></span>
+        </div>
     </div>
 </body>
 

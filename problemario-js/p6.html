@@ -28,18 +28,13 @@
     </header>
     <br>
     <div class="cuadro">
-        <label for="monto"><h1>Monto a Invertir</h1></label>
-        <br>
-        <br>
-        <input class="button" type="text" id="monto" name="monto" placeholder="Introduce la cantidad">
-        <br>
-        <br>
-        <button class="button" type="button" onclick="calcular()" id="button" name="button">Calcular</button>
-        <br>
-        <br>
-        <div class="respuesta">
-        <span  id="porcentaje"></span>
-        <span id="total"></span>
+        <h1>Ingresa tu fecha de nacimiento</h1>
+        <form class="button" id="ageCalculator">
+            <label for="birthDate">Fecha de nacimiento:</label><br>
+            <input type="date" id="birthDate" name="birthDate"><br><br>
+            <button type="button" onclick="calcularEdad()">Calcular Edad</button>
+            <span id="result"></span>
+          </form>
     </div>
     </div>
 </body>
