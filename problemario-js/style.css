@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;508;600;700;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.cuerpo-js-inicio{
+    font-family: "Roboto", sans-serif;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(251, 218, 0);
+    display: block;
+    font-weight: 600;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+.cuerpo-js-p1{
+    font-family: "Roboto", sans-serif;
+    background-image: url("https://h6a8m2f3.rocketcdn.me/wp-content/uploads/2023/06/pawel-czerwinski-YWIOwHvRBvU-unsplash-720x400-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
