@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;508;600;700;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url("https://img.freepik.com/vector-premium/fondo-minimalismo-papel-color-pastel-abstracto-formas-geometricas-lineas-color-pastel_252051-3276.jpg");
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 {
+    text-align: center;
+    height: 30vh;
+    margin: 10%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(138, 138, 138, 0.57);
+}
+
+.container2 {
+    text-align: center;
+    height: 50vh;
+    margin: 10%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(138, 138, 138, 0.57);
+}
+
+.container3 {
+    text-align: center;
+    height: 40vh;
+    margin: 10%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(138, 138, 138, 0.57);
+}
+
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.problema_container{
+    align-items: center;
+}
+
+button{
+    display: block;
+    width: 50px;
+    font-weight: 700;
+    background-color: rgb(157, 127, 255);
+    border-radius: 40px;
+    padding: 15px 100px;
+    margin: 0px 100px;
+    color: white;
+    text-decoration: none;
+}
